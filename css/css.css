@@ -1,0 +1,97 @@
+.my-back-ground-image{
+    height: 500px;
+    width: 500px; 
+    
+}
+
+
+
+
+
+body{ 
+    background-color: rgb(234, 234, 226); /* Current color */
+    /* Change to light purple */
+    background-color: #E6E6FA; /* This is the hexadecimal code for light purple (Lavender) */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+
+    }
+    .full-width-image {
+        display: block; /* Ensures the image is a block-level element */
+        width: 100%; /* Stretches the image to the full width of its container */
+        height: auto; /* Keeps the image's aspect ratio intact */
+        margin: 0; /* Removes any default margin */
+        padding: 0; /* Removes any default padding */
+    }
+    
+    h1 {
+        color: brown; /* Current color */
+        /* Change to dark purple */
+        color: #800080; /* This is the hexadecimal code for dark purple */
+        text-align: center;
+    }
+    
+    /* Rest of your CSS remains unchanged */
+    
+    
+
+    h3{
+        font-family: 'Brush Script MT', cursive;
+        font-size: 3em;
+        color: brown;
+    }
+    a{
+        color:black; 
+
+    }
+
+    a:visited {
+        color:rgb(74, 10, 74);
+    }
+
+  
+    
+    ul{
+        list-style-type: georgian;
+    }
+nav {
+
+text-align: center;
+
+
+
+overflow: hidden;
+
+width: 100%;
+
+position:sticky;
+
+top: 0px;
+
+}
+
+nav a {
+
+text-align: center;
+
+color: rgb(79, 10, 67);
+
+overflow: hidden;
+
+width: 100%;
+
+position:sticky;
+
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.tableau-dashboard {
+    max-width: 100%;
+    height: auto; /* or a fixed height as per your design */
+}
